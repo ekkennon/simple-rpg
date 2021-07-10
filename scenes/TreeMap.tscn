@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://assets/MapTileset.tres" type="TileSet" id=1]
+
+[node name="TreeMap" type="TileMap"]
+z_index = 2
+tile_set = ExtResource( 1 )
+cell_size = Vector2( 8, 8 )
+cell_custom_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+format = 1
+tile_data = PoolIntArray( 917582, 4, 0, 1769495, 4, 0, 2555995, 4, 0, 2621533, 4, 0, 2687067, 4, 0, 3473469, 4, 0, 3801168, 4, 0, 5111822, 4, 0, 5373972, 4, 0 )
